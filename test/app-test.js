@@ -16,7 +16,7 @@ describe("Vehicles API", () => {
         .end((err, response) => {
           response.should.have.status(200); //check response OK
           response.body.should.be.a("object"); //check if result is an object
-          response.body.Results.length.should.be.eql(9778); //check length of results
+          response.body.Results.length.should.be.eql(9781); //check length of results
           done();
         });
     });
