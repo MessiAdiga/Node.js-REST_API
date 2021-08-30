@@ -3,6 +3,8 @@ Backend API that interacts with the National Highway Traffic Safety Administrati
 
 Unit testing for each route is done using Mocha and Chai.
 
+Server side caching is implemented using node-cache package.
+
 Some screenshots are attached that shows the results.
 
 I would suggest to use the JSON viewer plugin for chrome, where the response is cleaner.
